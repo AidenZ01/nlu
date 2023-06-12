@@ -1,0 +1,32 @@
+.carousel-container {
+  padding-top: 15px;
+}
+
+.carousel-container h3 {
+  font-size: 4rem;
+}
+
+.home-container {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 50px;
+}
+
+.text-container {
+  color: #575757;
+}
+
+@media screen and (max-width: 980px) {
+  .home-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .home-container {
+    display: block;
+    margin-top: 20px;
+  }
+}

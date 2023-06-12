@@ -1,0 +1,78 @@
+.quote-form {
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 1px rgb(165, 165, 165);
+  max-height: 565px;
+}
+
+.quote-form h3 {
+  text-align: center;
+  color: #777;
+}
+
+.quote-form input[type="text"],
+.quote-form input[type="email"],
+.quote-form textarea,
+.quote-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  color: #777;
+}
+
+.quote-form input:focus {
+  outline: 2px solid #bcd3fc;
+}
+
+.quote-form textarea:focus {
+  outline: 2px solid #bcd3fc;
+}
+
+.quote-form select:focus {
+  outline: 2px solid #bcd3fc;
+}
+
+.quote-form input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.checkbox-label {
+  color: #777;
+  font-size: 18px;
+}
+
+.quote-form button {
+  display: flex;
+  margin: 10px auto;
+  border: none;
+  background-color: #0d6efd;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.quote-form button:hover {
+  color: #fff;
+  background-color: #669dee;
+}
+
+.quote-form button:focus {
+  outline: 2px solid #bcd3fc;
+}
+
+.form-label {
+  position: absolute;
+  left: -999999px;
+}
+
+@media screen and (max-width: 768px) {
+  .quote-form {
+    margin: 0 10px;
+  }
+}

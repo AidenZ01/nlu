@@ -1,0 +1,22 @@
+.cards {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card-container {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+@media screen and (max-width: 930px) {
+  .card-container {
+    display: block;
+  }
+
+  .cards {
+    margin-bottom: 20px;
+  }
+}
